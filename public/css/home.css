@@ -1,0 +1,32 @@
+html, body {
+    height: 100vh;
+}
+
+.container {
+    width: 75vw;
+}
+
+.row-cols-lg-3 {
+    padding-top: 70px;
+}
+
+#rent-btn:hover {
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.12);
+}
+
+#rent-btn:active {
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.4);
+}
+
+#alert-message .show {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 100vw;
+    }
+}

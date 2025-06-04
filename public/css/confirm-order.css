@@ -1,0 +1,16 @@
+html, body {
+    height: 100vh;
+}
+
+.container {
+    width: 75vw;
+    padding-top: 70px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 100vw;
+    }
+
+}
